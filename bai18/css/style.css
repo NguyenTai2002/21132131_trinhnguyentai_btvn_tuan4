@@ -1,0 +1,43 @@
+*{
+      padding: 0;
+      margin: 0 auto;
+      box-sizing: border-box;
+}
+a{
+      color: #fff;
+      display: block;
+      text-decoration: none;
+}
+nav{
+      display: block;
+      position: absolute;
+      top: 0;
+      padding-left: 24px;
+      height: 46px;
+      line-height: 46px;
+      width: 100%;
+      background-color: #008001;
+}
+.list > li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 20px;
+      font-size: 25px;
+}
+a:hover{
+      color: orange;
+      text-decoration: none;
+}
+.sub_nav{
+      display: none;
+}
+.sub_nav li{
+      display: block;
+}
+li:hover .sub_nav{
+      display: block;
+      position: absolute;
+      left: 180px;
+      padding: 6px 12px;
+      background-color: #008001;
+}

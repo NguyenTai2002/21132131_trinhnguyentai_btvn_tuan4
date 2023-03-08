@@ -1,0 +1,34 @@
+*{
+      padding: 0;
+      margin: 0 auto;
+}
+
+.wrapper{
+      position: relative;
+}
+
+.ribbon{
+      height: 20px;
+      width: 300px;
+      font-size: 24px;
+      text-align: center;
+      padding:12px 36px ;
+      line-height: 24px;
+      background-color: #ff0000;
+      border: 5px solid #ff6868;
+      top: 30px;
+      left: -100px;
+      transform: rotate(-45deg);
+      position: absolute;
+      overflow: hidden;
+      box-shadow: 0 0 10px 0 #888888;
+}
+.content{
+      width: 1089px;
+      margin: 20px;
+}
+h1{
+      font-size: 5rem;
+      text-shadow: 0 0 3px #000000 ,3px 0 3px #000000, 0 3px 3px #000000, -3px 0 3px #000000, 
+            0 -3px 3px #000000;
+}

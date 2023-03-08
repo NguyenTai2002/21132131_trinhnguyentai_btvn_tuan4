@@ -1,0 +1,16 @@
+*{
+      padding: 0;
+      margin: 0 auto;
+      box-sizing: border-box;
+}
+.wrapper{
+      width: 1089px;
+      overflow: hidden;
+}
+.footer{
+      width: 100%;
+      background-color: #1eff00;
+      height: 50px;
+      position: fixed;
+      bottom: 0;  
+}
